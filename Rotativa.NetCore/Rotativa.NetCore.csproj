@@ -9,21 +9,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="App_Browsers\qt.browser" />
-    <None Remove="Rotativa\help-wkhtmltoimage.txt" />
-    <None Remove="Rotativa\help-wkhtmltopdf.txt" />
-    <None Remove="Rotativa\wkhtmltoimage.exe" />
-    <None Remove="Rotativa\wkhtmltopdf.exe" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="App_Browsers\qt.browser" />
-    <Content Include="Rotativa\help-wkhtmltoimage.txt" />
-    <Content Include="Rotativa\help-wkhtmltopdf.txt" />
     <Content Include="Rotativa\wkhtmltoimage.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Rotativa\wkhtmltopdf.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Rotativa\wkhtmltox.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
@@ -50,11 +42,13 @@
     <Company />
     <Product>Rotativa.NetCore</Product>
     <PackageTags>asp.net core pdf</PackageTags>
-    <Version>1.0.1</Version>
+    <Version>1.0.4</Version>
     <PackageLicenseUrl>https://opensource.org/licenses/mit-license.php</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/aaxelm/Rotativa.NetCore</PackageProjectUrl>
     <RepositoryUrl>https://github.com/aaxelm/Rotativa.NetCore</RepositoryUrl>
     <RepositoryType>github</RepositoryType>
+    <AssemblyVersion>1.0.4.0</AssemblyVersion>
+    <FileVersion>1.0.4.0</FileVersion>
   </PropertyGroup>
 
 </Project>
