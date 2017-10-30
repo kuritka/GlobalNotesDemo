@@ -155,7 +155,7 @@ namespace Rotativa.NetCore
 
             var cookieOptions = context.HttpContext.RequestServices.GetService<IOptions<CookieAuthenticationOptions>>();
 
-            if (cookieOptions.Value != null)
+            if (cookieOptions.Value != null && !String.IsNullOrEmpty(cookieOptions.Value.CookieName))
             {
                 var cookieName = cookieOptions.Value.CookieName;
 
