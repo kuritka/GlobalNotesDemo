@@ -1,32 +1,54 @@
-﻿.globalNote{
-    padding: 1cm;
-}
-
-.globalNote h2 {
-    page-break-before: always;
-    color: forestgreen;
-    background-color: yellow;
-    margin-top: 3.5cm;
-    margin-left: auto;
-    margin-right: auto;
+﻿
+* {
+    box-sizing: border-box;
 }
 
 
-.globalNote h3, h4 {
+.globalNote {
+    padding-top: 2cm;
+    padding-bottom:2cm;
+    margin-left:1cm;
+    margin-right: 1cm;
+}
+
+    .globalNote h1 {
+        text-align: center;
+    }
+
+    .globalNote h2 {
+        page-break-before: always;
+        color: forestgreen;
+        background-color: yellow;
+        text-align: center;
+    }
+
+    .globalNote h3, h4 {
         page-break-after: avoid;
-}
+    }
 
-.globalNote pre, blockquote {
+    .globalNote pre, blockquote {
         page-break-after: avoid;
-}
+    }
 
 
-.globalNote .break {
-    page-break-after: always;
-}
+    .globalNote .break {
+        page-break-after: always;
+    }    
 
-.globalNote footer {
-        position: absolute;
+    .globalNote h1::before{
+        top: 3.5cm;
+    }
+
+    .globalNote .signature {
+        width: 100px;
+        height: 100px;
+    }
+
+    .globalNote footer {
+        clear: both;
+        border: 1px;
+        height: 40px;
+        background-color: yellow;
         bottom: 1cm;
         right: 2.5cm;
-}
+    }

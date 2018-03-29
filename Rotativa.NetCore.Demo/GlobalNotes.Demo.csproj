@@ -25,6 +25,17 @@
   <ItemGroup>
     <ProjectReference Include="..\Rotativa.NetCore\Rotativa.NetCore.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Update="wwwroot\images\8091-1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\blue-signature.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\logo__0000_boerse1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
 
   <PropertyGroup>
     <CodeAnalysisRuleSet>..\stylecop.ruleset</CodeAnalysisRuleSet>
