@@ -1,0 +1,32 @@
+﻿.globalNote{
+    padding: 1cm;
+}
+
+.globalNote h2 {
+    page-break-before: always;
+    color: forestgreen;
+    background-color: yellow;
+    margin-top: 3.5cm;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.globalNote h3, h4 {
+        page-break-after: avoid;
+}
+
+.globalNote pre, blockquote {
+        page-break-after: avoid;
+}
+
+
+.globalNote .break {
+    page-break-after: always;
+}
+
+.globalNote footer {
+        position: absolute;
+        bottom: 1cm;
+        right: 2.5cm;
+}

@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.15
+VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rotativa.NetCore", "Rotativa.NetCore\Rotativa.NetCore.csproj", "{F88634A0-40FC-4119-A45B-88748CF7FF54}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rotativa.NetCore.Demo", "Rotativa.NetCore.Demo\Rotativa.NetCore.Demo.csproj", "{95705C53-C213-4564-BCA2-07C015CE5B77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlobalNotes.Demo", "Rotativa.NetCore.Demo\GlobalNotes.Demo.csproj", "{95705C53-C213-4564-BCA2-07C015CE5B77}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E668049E-DEE5-4681-83B7-BBB078ECA26C}"
 	ProjectSection(SolutionItems) = preProject
@@ -30,5 +30,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B54E8242-5EFF-456D-A081-F150F114EC77}
 	EndGlobalSection
 EndGlobal

@@ -3,12 +3,12 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Rotativa.NetCore.Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"  />
+    <title>@ViewData["Title"] - GlobalNotes</title>
 
     <environment names="Development">
-        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
-        <link rel="stylesheet" href="~/css/site.css" />
+        <link rel="stylesheet" href="~/css/print.css"/>
+        <link rel="stylesheet" media="print" href="~/css/print.css">
     </environment>
     <environment names="Staging,Production">
         <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -19,23 +19,11 @@
     @Html.Raw(JavaScriptSnippet.FullScript)
 </head>
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-        </div>
-    </nav>
-    <div class="container body-content">
+    <div>
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2017 - Rotativa.NetCore.Demo</p>
+            <p>&copy; 2018 - GlobalNotes.Demo</p>
         </footer>
     </div>
 
@@ -59,7 +47,6 @@
         </script>
         <script src="~/js/site.min.js" asp-append-version="true"></script>
     </environment>
-
     @RenderSection("Scripts", required: false)
 </body>
 </html>
