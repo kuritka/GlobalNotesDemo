@@ -57,7 +57,7 @@ html, body {
     }
 
 .globalNote footer {
-    position: absolute;
+     position: absolute;
     bottom: 3cm;
     width: 100%;
     border-top: 3px solid grey;
